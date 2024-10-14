@@ -8,6 +8,7 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0d3a93",
+    "light": "##225AD3",
     "dark": "#0d4a93",
     "anchors": {
       "from": "##225AD3",
@@ -32,9 +33,9 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Join our Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/g89HkKG4"
     },
     {
       "name": "Community",

@@ -1,5 +1,26 @@
 {
   "$schema": "https://mintlify.com/schema.json",
+<<<<<<< HEAD
+  "name": "Square Cloud",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#2563eb",
+    "light": "#2563eb",
+    "dark": "#2563eb",
+    "background": {
+      "light": "#f0f0f0",
+      "dark": "#0B0E13"
+    }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://squarecloud.app/dashboard"
+  },
+=======
   "name": "Starter Kit",
   "logo": {
     "dark": "/logo/dark.svg",
@@ -31,10 +52,55 @@
       "url": "api-reference"
     }
   ],
+>>>>>>> 19638b94e52a3ef2aecc539b37463ea7f0d5ec97
   "anchors": [
     {
       "name": "Join our Discord",
       "icon": "discord",
+<<<<<<< HEAD
+      "url": "https://go.squarecloud.app/discord"
+    },
+    {
+      "name": "Follow us on Twitter",
+      "icon": "twitter",
+      "url": "https://go.squarecloud.app/twitter"
+    },
+    {
+      "name": "Follow us on Instagram",
+      "icon": "instagram",
+      "url": "https://go.squarecloud.app/instagram"
+    },
+    {
+      "name": "Contribute on GitHub",
+      "icon": "github",
+      "url": "https://go.squarecloud.app/github"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Tutorials",
+      "url": "tutorials"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    },
+    {
+      "name": "CLI Reference",
+      "url": "cli-reference"
+    },
+    {
+      "name": "Blob Reference",
+      "url": "blob-reference"
+    },
+    {
+      "name": "SDKs",
+      "url": "sdks"
+    },
+    {
+      "name": "FAQs",
+      "url": "faqs"
+=======
       "url": "https://discord.gg/g89HkKG4"
     },
     {
@@ -46,12 +112,252 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
+>>>>>>> 19638b94e52a3ef2aecc539b37463ea7f0d5ec97
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
+<<<<<<< HEAD
+        "getting-started/overview",
+        "getting-started/quick-start",
+        "getting-started/config-file"
+      ]
+    },
+    {
+      "group": "Services",
+      "pages": [
+        "services/bots",
+        "services/sites",
+        "services/blob"
+      ]
+    },
+    {
+      "group": "Languages",
+      "pages": [
+        {
+          "group": "JavaScript",
+          "icon": "node-js",
+          "pages": [
+            "articles/getting-started-with-nodejs",
+            "articles/how-to-create-your-package-json"
+          ]
+        },
+        {
+          "group": "Python",
+          "icon": "python",
+          "pages": [
+            "articles/getting-started-with-python",
+            "articles/how-to-create-your-requirements"
+          ]
+        },
+        "articles/getting-started-with-java",
+        "articles/getting-started-with-rust",
+        "articles/getting-started-with-elixir",
+        "articles/getting-started-with-php",
+        "articles/getting-started-with-go",
+        "articles/getting-started-with-csharp"
+      ]
+    },
+    {
+      "group": "Introduction",
+      "pages": [
+        "tutorials/introduction"
+      ]
+    },
+    {
+      "group": "Tutorials",
+      "pages": [
+        "tutorials/managing-teams",
+        "tutorials/how-to-set-up-your-domain",
+        "tutorials/how-to-create-your-lavalink-server",
+        "tutorials/how-to-deploy-your-website",
+        "tutorials/how-to-set-up-git-integration",
+        "tutorials/timezone-change-guide",
+        "tutorials/topgg-webhook-config",
+        "tutorials/how-to-deploy-your-selenium-application"
+      ]
+    },
+    {
+      "group": "APIs",
+      "pages": [
+        "tutorials/how-to-deploy-your-flask-application",
+        "tutorials/how-to-deploy-your-django-application",
+        "tutorials/how-to-deploy-your-nestjs-application",
+        "tutorials/how-to-deploy-your-express-application",
+        "tutorials/how-to-deploy-your-fastify-application"
+      ]
+    },
+    {
+      "group": "Website",
+      "pages": [
+        "tutorials/how-to-deploy-your-vue-website",
+        "tutorials/how-to-deploy-your-vite-website",
+        "tutorials/how-to-deploy-your-react-website",
+        "tutorials/how-to-deploy-your-next-website"
+      ]
+    },
+    {
+      "group": "Bots",
+      "pages": [
+        "tutorials/how-to-deploy-your-discord-bot",
+        "tutorials/how-to-deploy-your-whatsapp-bot",
+        "tutorials/how-to-deploy-your-telegram-bot"
+      ]
+    },
+    {
+      "group": "Platform",
+      "pages": [
+        "platform/overview",
+        "platform/limitations-and-restrictions"
+      ]
+    },
+    {
+      "group": "Company",
+      "pages": [
+        "company/brand",
+        "company/legal",
+        "company/support"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/authentication",
+        "api-reference/limitations-and-restrictions"
+      ]
+    },
+    {
+      "group": "API Endpoints",
+      "pages": [
+        "api-reference/endpoint/users/me",
+        "api-reference/endpoint/apps/upload",
+        "api-reference/endpoint/apps/status-all",
+        "api-reference/endpoint/service/status",
+        {
+          "group": "Application",
+          "pages": [
+            "api-reference/endpoint/apps/info",
+            "api-reference/endpoint/apps/status",
+            "api-reference/endpoint/apps/logs",
+            "api-reference/endpoint/apps/start",
+            "api-reference/endpoint/apps/restart",
+            "api-reference/endpoint/apps/stop",
+            "api-reference/endpoint/apps/commit",
+            "api-reference/endpoint/apps/backups/get",
+            "api-reference/endpoint/apps/backups/post",
+            "api-reference/endpoint/apps/delete"
+          ]
+        },
+        {
+          "group": "Application - File Manager",
+          "pages": [
+            "api-reference/endpoint/apps/filemanager/content",
+            "api-reference/endpoint/apps/filemanager/list",
+            "api-reference/endpoint/apps/filemanager/put",
+            "api-reference/endpoint/apps/filemanager/patch",
+            "api-reference/endpoint/apps/filemanager/delete"
+          ]
+        },
+        {
+          "group": "Application - Deploy",
+          "pages": [
+            "api-reference/endpoint/apps/deploy/list",
+            "api-reference/endpoint/apps/deploy/info",
+            "api-reference/endpoint/apps/deploy/webhooks"
+          ]
+        },
+        {
+          "group": "Application - Network",
+          "pages": [
+            "api-reference/endpoint/apps/network/dns",
+            "api-reference/endpoint/apps/network/analytics",
+            "api-reference/endpoint/apps/network/custom",
+            "api-reference/endpoint/apps/network/purge_cache"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "CLI Reference",
+      "pages": [
+        "cli-reference/installation",
+        "cli-reference/authentication",
+        "cli-reference/commands"
+      ]
+    },
+    {
+      "group": "Blob Reference",
+      "pages": [
+        "blob-reference/authentication"
+      ]
+    },
+    {
+      "group": "Blob Endpoints",
+      "pages": [
+        "blob-reference/endpoint/stats",
+        "blob-reference/endpoint/list",
+        "blob-reference/endpoint/post",
+        "blob-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "SDKs",
+      "pages": [
+        "sdks/introduction"
+      ]
+    },
+    {
+      "group": "JavaScript SDK",
+      "pages": [
+        "sdks/js/client",
+        "sdks/js/commit_and_upload",
+        "sdks/js/managing_application",
+        "sdks/js/managing_files"
+      ]
+    },
+    {
+      "group": "Python SDK",
+      "pages": [
+        "sdks/py/installation",
+        "sdks/py/client",
+        "sdks/py/commit_and_upload",
+        "sdks/py/managing_application",
+        "sdks/py/managing_files",
+        "sdks/py/deployments",
+        {
+          "group": "Advanced Guide",
+          "pages": [
+            "sdks/py/advanced/app_cache",
+            "sdks/py/advanced/listeners",
+            "sdks/py/advanced/using_pydantic"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "FAQs",
+      "pages": [
+        "faqs/using-autorestart-in-your-squarecloud-application",
+        "faqs/debugging-an-application",
+        "faqs/automatic-deletion-files-when-deploying-an-application-to-squarecloud"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "faqs/troubleshooting/access-website",
+        "faqs/troubleshooting/lavalink-closed-abnormally",
+        "faqs/troubleshooting/whitelist-mongodb",
+        "faqs/troubleshooting/LACK_OF_CPU",
+        "faqs/troubleshooting/LACK_OF_RAM",
+        "faqs/troubleshooting/TOKEN_INVALID",
+        "faqs/troubleshooting/ABUSE_REQUESTS",
+        "faqs/troubleshooting/MODULE_NOT_FOUND",
+        "faqs/troubleshooting/INVALID_DEPENDENCY",
+        "faqs/troubleshooting/BETTER_SQLITE3_ERROR"
+=======
         "introduction",
         "quickstart",
         "development"
@@ -80,12 +386,138 @@
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
+>>>>>>> 19638b94e52a3ef2aecc539b37463ea7f0d5ec97
       ]
     }
   ],
   "footerSocials": {
+<<<<<<< HEAD
+    "website": "https://squarecloud.app",
+    "discord": "https://discord.gg/squarecloud",
+    "instagram": "https://instagram.com/squarecloudofc",
+    "twitter": "https://twitter.com/squarecloudofc",
+    "linkedin": "https://linkedin.com/company/squarecloud",
+    "github": "https://go.squarecloud.app/github"
+  },
+  "backgroundImage": "/background.png",
+  "api": {
+    "auth": {
+      "method": "key",
+      "name": "Authorization"
+    }
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-QX546TZG8Z"
+    }
+  },
+  "seo": {
+    "indexHiddenPages": true
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "raiseIssue": true,
+    "suggestEdit": true
+  },
+  "redirects": [
+    {
+      "source": "/introduction",
+      "destination": "/getting-started/overview"
+    },
+    {
+      "source": "/articles/how-to-create-your-squarecloud-configuration-file",
+      "destination": "/getting-started/config-file"
+    },
+    {
+      "source": "/articles/como-criar-seu-arquivo-de-configuracao-squarecloud",
+      "destination": "/getting-started/config-file"
+    },
+    {
+      "source": "/articles/how-to-set-up-git-integration",
+      "destination": "/tutorials/how-to-set-up-git-integration"
+    },
+    {
+      "source": "/articles/how-to-set-up-your-domain",
+      "destination": "/tutorials/how-to-set-up-your-domain"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-react-website",
+      "destination": "/tutorials/how-to-deploy-your-react-website"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-vite-website",
+      "destination": "/tutorials/how-to-deploy-your-vite-website"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-vue-website",
+      "destination": "/tutorials/how-to-deploy-your-vue-website"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-flask-application",
+      "destination": "/tutorials/how-to-deploy-your-flask-application"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-django-application",
+      "destination": "/tutorials/how-to-deploy-your-django-application"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-discord-bot",
+      "destination": "/tutorials/how-to-deploy-your-discord-bot"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-express-application",
+      "destination": "/tutorials/how-to-deploy-your-express-application"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-fastify-applicationr",
+      "destination": "/tutorials/how-to-deploy-your-fastify-application"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-nestjs-application",
+      "destination": "/tutorials/how-to-deploy-your-nestjs-application"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-next-website",
+      "destination": "/tutorials/how-to-deploy-your-next-website"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-selenium-application",
+      "destination": "/tutorials/how-to-deploy-your-selenium-application"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-telegram-bot",
+      "destination": "/tutorials/how-to-deploy-your-telegram-bot"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-website",
+      "destination": "/tutorials/how-to-deploy-your-website"
+    },
+    {
+      "source": "/articles/how-to-deploy-your-whatsapp-bot",
+      "destination": "/tutorials/how-to-deploy-your-whatsapp-bot"
+    },
+    {
+      "source": "/articles/managing-teams",
+      "destination": "/tutorials/managing-teams"
+    },
+    {
+      "source": "/faqs/timezone-change-guide",
+      "destination": "/tutorials/timezone-change-guide"
+    },
+    {
+      "source": "/faqs/topgg-webhook-config",
+      "destination": "/tutorials/topgg-webhook-config"
+    },
+    {
+      "source": "/articles/how-to-create-your-lavalink-server",
+      "destination": "/tutorials/how-to-create-your-lavalink-server"
+    }
+  ]
+}
+=======
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   }
 }
+>>>>>>> 19638b94e52a3ef2aecc539b37463ea7f0d5ec97
